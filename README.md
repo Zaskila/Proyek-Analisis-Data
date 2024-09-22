@@ -3,7 +3,7 @@
 ## Setup Environment - Shell/Terminal
 ```
 
-mkdir Dasboard
+mkdir dasboard
 cd dasboard.py
 
 ```
