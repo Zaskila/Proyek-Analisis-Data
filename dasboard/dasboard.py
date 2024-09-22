@@ -7,6 +7,8 @@ sns.set(style='dark')
 
 st.header(' Dashboard Penyewaan Sepeda :sparkles:')
 
+    
+
 with st.sidebar:
     # Menambahkan logo perusahaan
     st.image("F:\Dasboard\download.png")
