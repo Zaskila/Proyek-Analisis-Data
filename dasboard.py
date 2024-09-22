@@ -9,7 +9,7 @@ st.header(' Dashboard Penyewaan Sepeda :sparkles:')
 
 with st.sidebar:
     # Menambahkan logo perusahaan
-    st.image("F:\Dasboard\download.png")
+    st.image("/mount/src/proyek-analisis-data/download.png")
     
     filtermusim = st.checkbox ("musim", value=True) #grouping by season
     filtercuaca = st.checkbox ("cuaca", value=True) #grouping by cuaca
@@ -17,10 +17,10 @@ with st.sidebar:
     filterday = st.checkbox ("hari", value=True) #grouping by hari
 
 #Import dataset
-df_day = pd.read_csv('F:\Dasboard\day.csv')
+df_day = pd.read_csv('/mount/src/proyek-analisis-data/data/day.csv')
 df_day.head()
 
-df_hours = pd.read_csv('F:\Dasboard\hour.csv')
+df_hours = pd.read_csv('/mount/src/proyek-analisis-data/data/hour.csv')
 df_hours.head()
 
 # Menampilkan pernyataan 1 line chart
