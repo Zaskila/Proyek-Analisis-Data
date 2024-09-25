@@ -17,10 +17,10 @@ with st.sidebar:
     filterday = st.checkbox ("hari", value=True) #grouping by hari
 
 #Import dataset
-df_day = pd.read_csv('data\\day.csv')
+df_day = pd.read_csv('..\\data\\day.csv')
 df_day.head()
 
-df_hours = pd.read_csv('data\\hour.csv')
+df_hours = pd.read_csv('..\\data\\hour.csv')
 df_hours.head()
 
 # Menampilkan pernyataan 1 line chart

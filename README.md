@@ -10,5 +10,5 @@ cd dasboard.py
 
 ## Run steamlit app
 ```
-streamlit run .\dasboard.py
+streamlit run .\dasboard\dasboard.py
 ```
